@@ -4,7 +4,7 @@
 select
   match_id,
   fixture,
-  round(base_ticket_price)
+  round(base_ticket_price) as base_ticket_price
 from
   matches
 where
@@ -39,7 +39,7 @@ select
   booking_id,
   full_name,
   fixture,
-  round(total_cost)
+  round(total_cost) as total_cost
 from
   bookings as b
   inner join matches as m on m.match_id = b.match_id
@@ -58,7 +58,7 @@ from
 select
   booking_id,
   match_id,
-  round(total_cost)
+  round(total_cost) as total_cost
 from
   bookings
 where
