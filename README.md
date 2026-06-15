@@ -12,6 +12,10 @@ This repository contains my assignment work.
 
 - [Query.sql](https://github.com/mehediweb01/assignment-3/blob/main/QUERY.sql)
 
+### Interview question video:
+
+- [Interview question video](https://youtu.be/rypjD7VOhpc)
+
 ---
 
 ### Quires:
